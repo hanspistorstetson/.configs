@@ -3,3 +3,5 @@ configstore/
 nvim/plugged/
 fish/fishd*
 nvm
+fish/functions/fzf_key_bindings.fish
+

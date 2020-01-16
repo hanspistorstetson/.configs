@@ -1,1 +1,0 @@
-/Users/hpistor/.fzf/shell/key-bindings.fish
