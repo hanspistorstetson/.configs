@@ -1,12 +1,3 @@
 let g:netrw_dirhistmax  =10
 let g:netrw_dirhistcnt =1
-let g:netrw_dirhist_1='/Users/hpistor/Projects/Rust/tunes-rs'
-let g:netrw_dirhist_0='/Users/hpistor/Projects/Rust/tunes-rs/src'
-let g:netrw_dirhist_9='/Users/hpistor/Projects/Rust/tunes-rs'
-let g:netrw_dirhist_8='/Users/hpistor/Projects/Rust/tunes-rs/src'
-let g:netrw_dirhist_7='/Users/hpistor/Projects/Rust/tunes-rs'
-let g:netrw_dirhist_6='/Users/hpistor/Projects/Advent-Of-Code-2019-Rust/src'
-let g:netrw_dirhist_5='/Users/hpistor/Projects/Advent-Of-Code-2019-Rust'
-let g:netrw_dirhist_4='/Users/hpistor/Projects/Rust/basic/src'
-let g:netrw_dirhist_3='/Users/hpistor/Projects/Rust/basic'
-let g:netrw_dirhist_2='/Users/hpistor/Projects/Rust/basic/src'
+let g:netrw_dirhist_1='/home/hpistor/.config/.git'

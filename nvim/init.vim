@@ -1,5 +1,5 @@
 set shell=/bin/bash
-let mapleader=","
+let mapleader=" "
 
 set nocompatible
 filetype plugin on
@@ -9,6 +9,8 @@ call plug#begin()
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
+
+
 Plug 'machakann/vim-highlightedyank'
 Plug 'andymass/vim-matchup'
 Plug 'cespare/vim-toml'
@@ -27,13 +29,16 @@ set termguicolors
 filetype plugin indent on
 set tabstop=4 softtabstop=4 shiftwidth=4 expandtab smarttab autoindent
 set incsearch ignorecase smartcase hlsearch
+
 set ruler laststatus=2 showcmd showmode
 set list listchars=trail:»,tab:»-
 set fillchars+=vert:\ 
 set wrap breakindent
 set encoding=utf-8
+
 set number
 set title
+
 
 nmap <leader>f :Files<CR>
 map <C-p> :Files<CR>
@@ -105,9 +110,13 @@ onoremap <C-c> <Esc>
 lnoremap <C-c> <Esc>
 tnoremap <C-c> <Esc>
 
-" Ctrl+h to stop searching
+" Ctrl+h to stop searching or leader leader
 vnoremap <C-h> :nohlsearch<cr>
 nnoremap <C-h> :nohlsearch<cr>
+nnoremap <leader><leader> :nohlsearch<CR>
+
+" ',' open/close folds
+nnoremap , za
 
 map H ^
 map L $

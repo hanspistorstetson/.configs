@@ -1,1 +1,5 @@
 nvim/.netrwhist
+configstore/
+nvim/plugged/
+fish/fishd*
+nvm
