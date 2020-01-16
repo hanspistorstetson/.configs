@@ -14,6 +14,8 @@ Plug 'andymass/vim-matchup'
 Plug 'cespare/vim-toml'
 Plug 'rust-lang/rust.vim'
 
+Plug 'vimwiki/vimwiki'
+
 call plug#end()
 
 syntax on
@@ -169,6 +171,9 @@ endfunction
 command! -bang -nargs=? -complete=dir Files
   \ call fzf#vim#files(<q-args>, {'source': s:list_cmd(),
   \                               'options': '--tiebreak=index'}, <bang>0)
+
+let g:vimwiki_list = [{'path': '~/Documents/.notes/',
+                      \ 'syntax': 'markdown', 'ext': '.md'}]
 
 
 
