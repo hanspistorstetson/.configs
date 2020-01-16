@@ -1,1 +1,1 @@
-/Users/hpistor/.fzf/shell/key-bindings.fish
+/home/hpistor/.fzf/shell/key-bindings.fish

@@ -1,0 +1,4 @@
+configstore/
+nvim/plugged/
+fish/fishd*
+nvm
